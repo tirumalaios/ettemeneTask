@@ -13,6 +13,23 @@
 		048FF7F12B147C470085142E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FF7EF2B147C470085142E /* Main.storyboard */; };
 		048FF7F32B147C4B0085142E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048FF7F22B147C4B0085142E /* Assets.xcassets */; };
 		048FF7F62B147C4B0085142E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FF7F42B147C4B0085142E /* LaunchScreen.storyboard */; };
+		048FF8002B1492800085142E /* AgendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF7FE2B1492800085142E /* AgendaTableViewCell.swift */; };
+		048FF8012B1492800085142E /* AgendaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FF7FF2B1492800085142E /* AgendaTableViewCell.xib */; };
+		048FF8042B1495940085142E /* ClockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF8022B1495940085142E /* ClockCollectionViewCell.swift */; };
+		048FF8052B1495940085142E /* ClockCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FF8032B1495940085142E /* ClockCollectionViewCell.xib */; };
+		048FF80A2B149B290085142E /* authModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF8092B149B290085142E /* authModels.swift */; };
+		048FF80D2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF80B2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.swift */; };
+		048FF80E2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FF80C2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.xib */; };
+		048FF8112B14B4110085142E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 048FF8102B14B4110085142E /* SDWebImage */; };
+		048FF8142B14C98A0085142E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF8132B14C98A0085142E /* DetailsViewController.swift */; };
+		04A7B3DE2B15BD5E006DD763 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7B3DC2B15BD5E006DD763 /* LocationTableViewCell.swift */; };
+		04A7B3DF2B15BD5E006DD763 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A7B3DD2B15BD5E006DD763 /* LocationTableViewCell.xib */; };
+		04A7B3E22B15C98C006DD763 /* SpeakersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7B3E02B15C98C006DD763 /* SpeakersTableViewCell.swift */; };
+		04A7B3E32B15C98C006DD763 /* SpeakersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A7B3E12B15C98C006DD763 /* SpeakersTableViewCell.xib */; };
+		04C4E4F82B15E4E3002952DB /* HyperLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4E4F62B15E4E3002952DB /* HyperLinkTableViewCell.swift */; };
+		04C4E4F92B15E4E3002952DB /* HyperLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C4E4F72B15E4E3002952DB /* HyperLinkTableViewCell.xib */; };
+		04C4E4FC2B15EC44002952DB /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4E4FA2B15EC44002952DB /* DescriptionTableViewCell.swift */; };
+		04C4E4FD2B15EC44002952DB /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C4E4FB2B15EC44002952DB /* DescriptionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,22 @@
 		048FF7F22B147C4B0085142E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048FF7F52B147C4B0085142E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048FF7F72B147C4B0085142E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048FF7FE2B1492800085142E /* AgendaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTableViewCell.swift; sourceTree = "<group>"; };
+		048FF7FF2B1492800085142E /* AgendaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgendaTableViewCell.xib; sourceTree = "<group>"; };
+		048FF8022B1495940085142E /* ClockCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCollectionViewCell.swift; sourceTree = "<group>"; };
+		048FF8032B1495940085142E /* ClockCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockCollectionViewCell.xib; sourceTree = "<group>"; };
+		048FF8092B149B290085142E /* authModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authModels.swift; sourceTree = "<group>"; };
+		048FF80B2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutualConnectionImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		048FF80C2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MutualConnectionImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		048FF8132B14C98A0085142E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		04A7B3DC2B15BD5E006DD763 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		04A7B3DD2B15BD5E006DD763 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
+		04A7B3E02B15C98C006DD763 /* SpeakersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersTableViewCell.swift; sourceTree = "<group>"; };
+		04A7B3E12B15C98C006DD763 /* SpeakersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakersTableViewCell.xib; sourceTree = "<group>"; };
+		04C4E4F62B15E4E3002952DB /* HyperLinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperLinkTableViewCell.swift; sourceTree = "<group>"; };
+		04C4E4F72B15E4E3002952DB /* HyperLinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HyperLinkTableViewCell.xib; sourceTree = "<group>"; };
+		04C4E4FA2B15EC44002952DB /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		04C4E4FB2B15EC44002952DB /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048FF8112B14B4110085142E /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +93,44 @@
 				048FF7E92B147C470085142E /* AppDelegate.swift */,
 				048FF7EB2B147C470085142E /* SceneDelegate.swift */,
 				048FF7ED2B147C470085142E /* ViewController.swift */,
+				048FF8132B14C98A0085142E /* DetailsViewController.swift */,
+				048FF8062B149AF30085142E /* AuthModels */,
+				048FF7FD2B1492410085142E /* CustomTableViewCells */,
 				048FF7EF2B147C470085142E /* Main.storyboard */,
 				048FF7F22B147C4B0085142E /* Assets.xcassets */,
 				048FF7F42B147C4B0085142E /* LaunchScreen.storyboard */,
 				048FF7F72B147C4B0085142E /* Info.plist */,
 			);
 			path = ettemeneTask;
+			sourceTree = "<group>";
+		};
+		048FF7FD2B1492410085142E /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				048FF7FE2B1492800085142E /* AgendaTableViewCell.swift */,
+				04C4E4FA2B15EC44002952DB /* DescriptionTableViewCell.swift */,
+				04C4E4FB2B15EC44002952DB /* DescriptionTableViewCell.xib */,
+				04C4E4F62B15E4E3002952DB /* HyperLinkTableViewCell.swift */,
+				04C4E4F72B15E4E3002952DB /* HyperLinkTableViewCell.xib */,
+				04A7B3DC2B15BD5E006DD763 /* LocationTableViewCell.swift */,
+				04A7B3E02B15C98C006DD763 /* SpeakersTableViewCell.swift */,
+				04A7B3E12B15C98C006DD763 /* SpeakersTableViewCell.xib */,
+				04A7B3DD2B15BD5E006DD763 /* LocationTableViewCell.xib */,
+				048FF80B2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.swift */,
+				048FF80C2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.xib */,
+				048FF8022B1495940085142E /* ClockCollectionViewCell.swift */,
+				048FF8032B1495940085142E /* ClockCollectionViewCell.xib */,
+				048FF7FF2B1492800085142E /* AgendaTableViewCell.xib */,
+			);
+			path = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		048FF8062B149AF30085142E /* AuthModels */ = {
+			isa = PBXGroup;
+			children = (
+				048FF8092B149B290085142E /* authModels.swift */,
+			);
+			path = AuthModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +149,9 @@
 			dependencies = (
 			);
 			name = ettemeneTask;
+			packageProductDependencies = (
+				048FF8102B14B4110085142E /* SDWebImage */,
+			);
 			productName = ettemeneTask;
 			productReference = 048FF7E62B147C470085142E /* ettemeneTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 048FF7DD2B147C470085142E;
+			packageReferences = (
+				048FF80F2B14B4110085142E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 048FF7E72B147C470085142E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +199,14 @@
 			files = (
 				048FF7F62B147C4B0085142E /* LaunchScreen.storyboard in Resources */,
 				048FF7F32B147C4B0085142E /* Assets.xcassets in Resources */,
+				04A7B3DF2B15BD5E006DD763 /* LocationTableViewCell.xib in Resources */,
+				04A7B3E32B15C98C006DD763 /* SpeakersTableViewCell.xib in Resources */,
+				048FF80E2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.xib in Resources */,
 				048FF7F12B147C470085142E /* Main.storyboard in Resources */,
+				04C4E4FD2B15EC44002952DB /* DescriptionTableViewCell.xib in Resources */,
+				048FF8052B1495940085142E /* ClockCollectionViewCell.xib in Resources */,
+				04C4E4F92B15E4E3002952DB /* HyperLinkTableViewCell.xib in Resources */,
+				048FF8012B1492800085142E /* AgendaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +218,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				048FF7EE2B147C470085142E /* ViewController.swift in Sources */,
+				048FF80D2B14B3920085142E /* MutualConnectionImagesCollectionViewCell.swift in Sources */,
+				048FF8042B1495940085142E /* ClockCollectionViewCell.swift in Sources */,
+				04A7B3DE2B15BD5E006DD763 /* LocationTableViewCell.swift in Sources */,
+				04C4E4FC2B15EC44002952DB /* DescriptionTableViewCell.swift in Sources */,
+				048FF8142B14C98A0085142E /* DetailsViewController.swift in Sources */,
 				048FF7EA2B147C470085142E /* AppDelegate.swift in Sources */,
 				048FF7EC2B147C470085142E /* SceneDelegate.swift in Sources */,
+				04A7B3E22B15C98C006DD763 /* SpeakersTableViewCell.swift in Sources */,
+				048FF8002B1492800085142E /* AgendaTableViewCell.swift in Sources */,
+				04C4E4F82B15E4E3002952DB /* HyperLinkTableViewCell.swift in Sources */,
+				048FF80A2B149B290085142E /* authModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		048FF80F2B14B4110085142E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		048FF8102B14B4110085142E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048FF80F2B14B4110085142E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 048FF7DE2B147C470085142E /* Project object */;
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ClockCollectionViewCell" id="gTV-IL-0wX" customClass="ClockCollectionViewCell" customModule="ettemeneTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="198" height="71"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmC-XK-qzB">
+                        <rect key="frame" x="0.0" y="0.0" width="198" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WED, NOV 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POo-2O-8mZ">
+                                <rect key="frame" x="46" y="25" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6s9-ZZ-itx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="POo-2O-8mZ" firstAttribute="centerX" secondItem="TmC-XK-qzB" secondAttribute="centerX" id="ZmK-pQ-gP7"/>
+                            <constraint firstItem="POo-2O-8mZ" firstAttribute="centerY" secondItem="TmC-XK-qzB" secondAttribute="centerY" id="uhV-ta-0Cv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TmC-XK-qzB" secondAttribute="trailing" id="Pls-xO-8YL"/>
+                <constraint firstAttribute="bottom" secondItem="TmC-XK-qzB" secondAttribute="bottom" id="UEs-IU-GgY"/>
+                <constraint firstItem="TmC-XK-qzB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Xw4-rg-Tev"/>
+                <constraint firstItem="TmC-XK-qzB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zoA-LM-7FI"/>
+            </constraints>
+            <size key="customSize" width="198" height="71"/>
+            <connections>
+                <outlet property="dateLbl" destination="POo-2O-8mZ" id="ONs-8r-JLF"/>
+            </connections>
+            <point key="canvasLocation" x="242.74809160305344" y="-3.8732394366197185"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
